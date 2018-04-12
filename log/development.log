@@ -442,3 +442,10 @@ ActionView::Template::Error (undefined method `name' for nil:NilClass):
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.1ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (42.3ms)
+
+
+Started GET "/songs/new" for 68.197.166.229 at 2018-04-12 17:55:29 +0000
+Cannot render console from 68.197.166.229! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 64ms (Views: 56.3ms | ActiveRecord: 0.9ms)
