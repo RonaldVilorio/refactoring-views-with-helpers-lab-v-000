@@ -1,5 +1,5 @@
 module SongsHelper
-  def display_artist(artist)
+  def display_artist(song)
     if @song.artist_name == nil
        link_to @song.name, edit_song_path(@song)
     else
